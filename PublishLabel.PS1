@@ -54,3 +54,7 @@ $labels.name
 
 #simple policy to publish
 New-LabelPolicy -Name "My Label Policy" -Labels $($labels.name) -ExchangeLocation "All"
+
+# References
+# https://protection.office.com/sensitivity
+# https://blog.oholics.net/scripted-provisioning-of-office-365-unified-labels/
